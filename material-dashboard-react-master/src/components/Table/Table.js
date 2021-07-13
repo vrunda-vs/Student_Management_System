@@ -53,8 +53,6 @@ return (
               <TableCell>DOB</TableCell>
               <TableCell>Address</TableCell>
               
-
-              
             </TableRow>
           </TableHead>
        
@@ -68,8 +66,6 @@ return (
               <TableCell>{student.mobile_no}</TableCell>
               <TableCell>{Moment(student.dob).format('DD-MM-YYYY')}</TableCell>
               <TableCell>{student.address}</TableCell>
-             
-
             </TableRow>
             )
            
